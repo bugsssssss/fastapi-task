@@ -19,10 +19,10 @@ class User(Base):
     password = Column(String)
 
 
-# Create the table
+# Создание таблицы
 Base.metadata.create_all(bind=engine)
 
-# Create a SQLAlchemy session
+# Создание сессии 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 password_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
