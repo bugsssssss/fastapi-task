@@ -7,7 +7,7 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/ваш-пользователь/ваш-репозиторий.git
+    git clone [https://github.com/ваш-пользователь/ваш-репозиторий.git](https://github.com/bugsssssss/fastapi-task.git)
     ```
 
 2. Соберите и запустите приложение:
